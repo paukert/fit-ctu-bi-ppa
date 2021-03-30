@@ -1,9 +1,8 @@
 # Sudoku solver (BI-PPA)
 
-Tento projekt vznikl jako semestrální práce v předmětu BI-PPA v akademickém roce 2020/2021.
+Programming Paradigms course at FIT CTU (2020/2021). This repository contains my semestral work – sudoku solver written in prolog.
 
-Sudoku se zadává jako seznam (= celé sudoku) seznamů (= řádky), prázdná políčka obsahují `_`
-
+Input example:
 ```prolog
 [
     [_, _, 1,    4, _, 6,    8, _, _],
@@ -21,11 +20,12 @@ Sudoku se zadává jako seznam (= celé sudoku) seznamů (= řádky), prázdná 
 ]
 ```
 
-Po zadání `solve(<Sudoku>)` se řešení vypíše do terminálu (pokud existuje).
-
-Pro potřeby odevzdání, vývoje a testování jsou předpřipraveny následující predikáty:
-- `sudoku_1.` – 1. testovací sudoku
-- `sudoku_2.` – 2. testovací sudoku
-- `sudoku_3.` – 3. testovací sudoku
-- `sudoku_4.` – 4. testovací sudoku
-- `tests.` – spustí testy pro ověření funkčnosti jednotlivých predikátů
+Following predicates are prepared for testing:
+- `solve(<Sudoku>)` – finds and prints solution for given sudoku (if exists)
+- `sudoku_1.` – 1st testing sudoku
+- `sudoku_2.` – 2nd testing sudoku
+- `sudoku_3.` – 3rd testing sudoku
+- `sudoku_4.` – 4th testing sudoku
+- `sudoku_5.` – 5th testing sudoku (empty sudoku)
+- `sudoku_6.` – 6th testing sudoku (anti-brute-force sudoku)
+- `tests.` – runs all tests to verify functionality
