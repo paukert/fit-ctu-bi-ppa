@@ -1,6 +1,8 @@
 # Sudoku solver (BI-PPA)
 
-Programming Paradigms course at FIT CTU (2020/2021). This repository contains my semestral work – sudoku solver written in prolog.
+Programming Paradigms course at FIT CTU (2020/2021).
+
+This repository contains my semestral work – sudoku solver written in prolog.
 
 Input example:
 ```prolog
